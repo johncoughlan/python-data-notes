@@ -41,7 +41,7 @@ df1 = df.loc[df['B'] >= '2018-01-10', ['A', 'B', 'G']]
 df1.head()
 
 # multiple where criteria 
-#   use () for each and logical operators 
+#   use () for multiple logical operators 
 #   use bitwise operators: & (and), | (or), ~ (not), ^ (xor)
 #   note that code within the .loc square brackets can span multiple lines
 
